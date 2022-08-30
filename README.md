@@ -19,4 +19,4 @@ This is a solution to the [3-column Preview Card Component](https://www.frontend
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/qr-code-component-O9amPJNyeS
-- Live Site URL: https://reliable-dodol-30d529.netlify.app/
+- Live Site URL: https://regal-twilight-92c729.netlify.app/

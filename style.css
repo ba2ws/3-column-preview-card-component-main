@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+
+img {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+p{
+    padding: 0 27px 0 20px;
+}
+
+.info {
+    margin-top: 50px;
+    margin-left: 20px;
+    
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+#btn-suv{
+    color: hsl(184, 100%, 22%);
+}
+#btn-sedan{
+    color: hsl(31, 77%, 52%);
+}
+#btn-lux{
+    color: hsl(179, 100%, 13%);
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    height: 450px;
+    width: 278px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border-radius: 7px 0 0 7px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    height: 450px;
+    width: 278px;
+    display: flex;
+    flex-direction: column;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    height: 450px;
+    width: 278px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 7px 7px 0;
+
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 250px;
+    line-height: 1.5rem;
+    
+}
+
+
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+button {
+    width: 150px;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 50px;
+    height: 42px;
+    border-radius: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.col-md-4 {
+    width: 278px;
+  }
+  
+  @media only screen and (max-width: 600px)
+    {
+        
+    
+       .main{
+        display:block;
+        margin: 10px 50px;
+       }
+
+       .sedan{
+        border-radius: 7px 7px 0 0 ;
+       }
+
+       .luxury{
+        border-radius: 0 0 7px 7px;
+       }
+    }

@@ -18,5 +18,5 @@ This is a solution to the [3-column Preview Card Component](https://www.frontend
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/qr-code-component-O9amPJNyeS
+- Solution URL: https://www.frontendmentor.io/solutions/3column-preview-card-component-solution-zzEVBKHeQ6
 - Live Site URL: https://regal-twilight-92c729.netlify.app/
